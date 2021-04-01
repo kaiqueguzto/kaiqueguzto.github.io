@@ -60,6 +60,21 @@ header nav a:last-child::before {
 }
 
 
+#box {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #3A4042;
+  text-align: center;
+  box-shadow: 10px 10px 0 #000;
+
+  padding: 42px;
+}
+
+#box h1 {
+  margin-bottom: 30px;
+}
+
 @media (max-width:830px) {
  /*
   Hamburger
