@@ -1,0 +1,68 @@
+body {
+  background: #3d3d3d;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+	background-color: #34495e;
+	border-bottom: 5px solid #000;
+
+  padding: 6px 10px;
+  max-width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  color: #FFF;
+  font-size: 20px;
+  font-family: "Fira Code", sans-serif;
+  text-decoration: none;
+
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+header nav a::before {
+  content: "";
+  background-color: #9b59b6;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav a:last-child::before { 
+  content: initial;
+}
+
+#button {
+  background: #8e44ad;
+  height: 55px;
+  line-height: 55px;
+  padding: 0px 20px;
+
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.8);
+  transition: all 250ms;
+}
+
+
+#button:hover {
+  background: #9b59b6;
+  box-shadow:  0px 0px 0px #2d3436;
+}
+
+
+
+@media (max-width:830px) {
+ /*
+  Hamburger
+ */
+}
