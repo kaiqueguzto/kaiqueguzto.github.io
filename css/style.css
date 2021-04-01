@@ -43,23 +43,6 @@ header nav a:last-child::before {
   content: initial;
 }
 
-#button {
-  background: #8e44ad;
-  height: 55px;
-  line-height: 55px;
-  padding: 0px 20px;
-
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.8);
-  transition: all 250ms;
-}
-
-
-#button:hover {
-  background: #9b59b6;
-  box-shadow:  0px 0px 0px #2d3436;
-}
-
-
 #box {
   display: inline-flex;
   flex-direction: column;
