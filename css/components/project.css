@@ -17,5 +17,16 @@
   box-shadow: 6px 6px 0px #FFF;
   margin-bottom: 5px;
   background: #4C5B84;
+}
 
+@media (max-width:830px) {
+  .project {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .project {
+    margin: 0px;
+  }
 }

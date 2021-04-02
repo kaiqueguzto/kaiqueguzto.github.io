@@ -14,3 +14,8 @@
   margin: 30px 0px;
 }
 
+@media (max-width: 600px) {
+  .section h1 {
+    font-size: 18px;
+  }
+}

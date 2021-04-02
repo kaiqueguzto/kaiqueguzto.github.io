@@ -38,3 +38,13 @@ header nav a::before {
 header nav a:last-child::before { 
   content: initial;
 }
+
+.hamburger {
+  width: 40px;
+}
+
+@media (max-width: 836px) {
+  header nav {
+    display: none;
+  }
+}

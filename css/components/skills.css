@@ -37,3 +37,30 @@
   width: 60px;
   margin-right: 20px;
 }
+
+@media (max-width:800px ) {
+  .wrapper-skill {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 350px) {
+  .skill div h2 {
+    font-size: 14px;
+  }
+
+  .skill div {
+    width: 100%;
+  }
+  .progress-bar {
+    width: 100%;
+  }
+
+  .skills-item {
+    border: 1px solid red;
+    width: 100%;
+  }
+}
