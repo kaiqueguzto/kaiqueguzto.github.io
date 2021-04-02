@@ -25,9 +25,13 @@
   height: 32px;
   background-color: #FFF;
   border: 5px solid #000;
+  display: flex;
+  justify-content: center;
 }
 
-.value {
+
+.progress-bar::before {
+  content: "";
   background: #6c5ce7;
   width: 70%;
   height: 32px;
@@ -60,7 +64,6 @@
   }
 
   .skills-item {
-    border: 1px solid red;
     width: 100%;
   }
 }
