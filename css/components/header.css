@@ -41,6 +41,7 @@ header nav a:last-child::before {
 
 .hamburger {
   width: 40px;
+  display: none;
 }
 
 @media (max-width: 836px) {
