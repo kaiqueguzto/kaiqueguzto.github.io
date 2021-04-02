@@ -1,0 +1,27 @@
+.skill {
+  display: flex; 
+  margin-top: 25px;
+}
+
+.skill div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+}
+
+.skill h1 {
+  font-size: 21px;
+  margin-top: 0px;
+}
+
+.skill-image {
+  width: 65px;
+}
+
+.skill-level {
+  margin-top: 10px;
+  background: #FFF;
+  width: 220px;
+  height: 22px;
+  border: 5px solid #000;
+}
