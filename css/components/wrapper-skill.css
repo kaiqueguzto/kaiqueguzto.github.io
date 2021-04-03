@@ -1,0 +1,16 @@
+.wrapper-skill {
+  display: flex;
+  max-width: 968px;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:  0 auto;
+}
+
+.wrapper-skill .skill-tech {
+  width: 430px;
+}
+
+.wrapper-skill .skill-tech .progress-bar {
+  width: 320px;
+}

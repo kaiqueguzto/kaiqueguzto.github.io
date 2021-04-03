@@ -6,6 +6,6 @@
   box-sizing: border-box;
 }
 
-.progress-bar::-moz-progress-bar,::-webkit-progress-bar {
+.progress-bar::-moz-progress-bar,::-webkit-progress-bar-value {
   background: #6c5ce7;
 }
