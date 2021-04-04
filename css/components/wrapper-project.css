@@ -1,0 +1,20 @@
+.wrapper-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+@media (max-width:968px) {
+  .wrapper-project {
+    max-width: 968px;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .project {
+    margin: 20px 0px;
+  }
+}
